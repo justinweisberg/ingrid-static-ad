@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Therapy for Anxiety, Depression, & Trauma in California</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+
+  <!-- Required styles only for the form -->
+  <link rel="stylesheet" href="https://stcdn.leadconnectorhq.com/_preview/FormComponent.CEd3n4I6.css" crossorigin />
+  <link rel="stylesheet" href="https://stcdn.leadconnectorhq.com/_preview/vue-multiselect.B5exX717.css" crossorigin />
+
+  <!-- Optional: main app styles from LeadConnector, test with/without -->
+  <link rel="stylesheet" href="https://stcdn.leadconnectorhq.com/_preview/app.CIeqQcaX.css" crossorigin />
+
+  <!-- Phone input utilities -->
+  <script src="https://stcdn.leadconnectorhq.com/libphonenumber/1.10.60/libphonenumber-js.min.js" async></script>
+  <script src="https://stcdn.leadconnectorhq.com/intl-tel-input/intlTelInput.min.js" async></script>
+</head>
+<body>
+
+  <!-- Your content and form container go here -->
+  <div id="leadconnector-form-container">
+    <form id="contact-form">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required />
+      
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required />
+      
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      
+        <button type="submit">Submit</button>
+      </form>
+      
+      <div id="form-status"></div>
+  </div>
+  
+<div><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WC3ZP4MW" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript></div>
+<div id="gb-track-hl-custom-code"></div>
+<!--]-->
+</body>
+</html>
